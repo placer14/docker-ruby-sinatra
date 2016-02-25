@@ -1,6 +1,6 @@
-FROM cloudgear/ruby:2.1
+FROM armhf/ruby:2.2
 
-MAINTAINER Erika Pauwels <erika.pauwels@gmail.com>
+MAINTAINER Mike Greenberg <mg@noulb.com>
 
 ENV RACK_ENV production
 ENV MAIN_APP_FILE web.rb
